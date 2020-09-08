@@ -5,5 +5,5 @@
 ```sh
 $ git clone https://github.com/vincentorback/dotfiles.git ~/.dotfiles
 $ cd ~/.dotfiles && sh install
-$ stow atom # fish tmux etc...
+$ stow fish git kitty nvm
 ```
