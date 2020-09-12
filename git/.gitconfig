@@ -1,19 +1,11 @@
 [user]
 	name = Vincent Orback
-	email = vorback@gmail.com
+	email = hello@vincentorback.se
 [credential]
 	helper = osxkeychain
 [core]
 	excludesfile = /Users/vincent/.gitignore_global
 	editor = code
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path =
-[mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
-[commit]
-	template = /Users/vincent/.stCommitMsg
 [pager]
 	branch = false
 [push]
