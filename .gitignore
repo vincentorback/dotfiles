@@ -1,3 +1,5 @@
-.config/fish/completions
-.config/fish/functions/fundle.fish
-.config/fish/secrets.fish
+fish/.config/fish/completions
+fish/.config/fish/functions/fundle.fish
+fish/.config/fish/fundle
+fish/.config/fish/local.fish
+fish/.config/fish/secrets.fish
