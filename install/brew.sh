@@ -35,6 +35,7 @@ brew bundle --file=- <<EOF
   brew 'wget'
   brew 'yarn'
   brew 'youtube-dl'
+
   cask '1password'
   cask 'adobe-creative-cloud'
   cask 'alfred'
@@ -45,6 +46,7 @@ brew bundle --file=- <<EOF
   cask 'google-chrome-canary'
   cask 'iina'
   cask 'imageoptim'
+  cask 'kitty'
   cask 'mamp'
   cask 'notion'
   cask 'postman'
@@ -64,6 +66,7 @@ brew bundle --file=- <<EOF
   cask 'transmit'
   cask 'visual-studio-code'
   cask 'webpquicklook'
+  
   mas 'Cinch', id: 412529613
   mas 'Pages', id: 409201541
   mas 'Sip', id: 507257563
