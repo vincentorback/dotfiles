@@ -32,6 +32,7 @@ brew bundle --file=- <<EOF
   brew 'sl'
   brew 'ssh-copy-id'
   brew 'stow'
+  brew 'trash'
   brew 'wget'
   brew 'yarn'
   brew 'youtube-dl'
