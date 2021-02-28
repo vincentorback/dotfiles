@@ -31,6 +31,7 @@ brew bundle --file=- <<EOF
   brew 'reattach-to-user-namespace'
   brew 'ssh-copy-id'
   brew 'stow'
+  brew 'trash'
   brew 'wget'
   brew 'youtube-dl'
 
