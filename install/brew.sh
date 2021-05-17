@@ -36,7 +36,7 @@ brew bundle --file=- <<EOF
   brew 'youtube-dl'
 
   cask '1password'
-  cask 'adobe-creative-cloud'
+  cask 'alt-tab'
   cask 'backblaze'
   cask 'firefox'
   cask 'iina'
@@ -44,7 +44,8 @@ brew bundle --file=- <<EOF
   cask 'kitty'
   cask 'mamp'
   cask 'notion'
-  cask 'sequel-pro'
+  cask 'rectangle'
+  cask 'sequel-ace'
   cask 'sketch'
   cask 'slack'
   cask 'spotify'
