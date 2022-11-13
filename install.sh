@@ -4,7 +4,11 @@
 sudo -v
 
 # Update existing `sudo` time stamp until `install` has finished
-while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+while true; do
+  sudo -n true
+  sleep 60
+  kill -0 "$$" || exit
+done 2>/dev/null &
 
 # Install Xcode command line tools
 if ! command -v xcode-select -p >/dev/null; then

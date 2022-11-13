@@ -1,9 +1,8 @@
-function update --description 'Get OS X Software Updates and update Homebrew, mas, and npm packages'
+function update --description 'Get OS X Software Updates, App Store apps and Homebrew'
   sudo softwareupdate -i -a
   brew update
-  brew upgrade --force --all
+  brew upgrade --force
   brew cleanup
   mas upgrade
-  npm install npm -g
-  npm update -g
+  npx browserslist@latest --update-db
 end

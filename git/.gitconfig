@@ -8,6 +8,10 @@
 	editor = code
 [pager]
 	branch = false
+[pull]
+	rebase = false
+[fetch]
+	prune = true
 [push]
 	default = current
 [filter "lfs"]
@@ -15,3 +19,5 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[init]
+	defaultBranch = main
