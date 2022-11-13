@@ -34,8 +34,8 @@ brew bundle --file=- <<EOF
   brew 'ssh-copy-id'
   brew 'starship'
   brew 'stow'
+  brew 'trash'
   brew 'wget'
-  brew 'yarn'
   brew 'youtube-dl'
 
   cask '1password'
@@ -52,6 +52,7 @@ brew bundle --file=- <<EOF
   cask 'sequel-ace'
   cask 'sketch'
   cask 'slack'
+  cask 'sublime-text'
   cask 'the-unarchiver'
   cask 'tidal'
   cask 'tower'

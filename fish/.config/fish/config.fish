@@ -39,9 +39,6 @@ eval (direnv hook fish)
 # Nodenv
 status --is-interactive; and source (nodenv init -|psub)
 
-# Starship
-eval (starship init fish)
-
 # `bat` defaults
 set -x BAT_THEME 'GitHub'
 set -x BAT_STYLE 'plain'
