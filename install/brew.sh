@@ -32,6 +32,7 @@ brew bundle --file=- <<EOF
   brew 'openssl'
   brew 'reattach-to-user-namespace'
   brew 'ssh-copy-id'
+  brew 'starship'
   brew 'stow'
   brew 'trash'
   brew 'wget'
